@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposed DMV on Lyons Road | Dina Ulrich | The Edmund Bogen Team</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Proposed South County DMV on Lyons Road: What Residents Need to Know">
+    <meta property="og:description" content="A comprehensive overview of the proposed DMV/Tax Collector facility and community concerns in Delray Beach's Agricultural Reserve.">
+    <meta property="og:type" content="article">
+    <meta name="author" content="Edmund Bogen">
+    <style>
+        :root {
+            --navy: #1a3e5c;
+            --bright-blue: #00a8e1;
+            --white: #ffffff;
+            --black: #000000;
+            --light-gray: #f4f4f4;
+            --text-dark: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.7;
+            color: var(--text-dark);
+            background-color: var(--white);
+        }
+
+        /* Header */
+        .header {
+            background-color: var(--navy);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-text {
+            color: var(--white);
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .logo-text span {
+            font-weight: 500;
+        }
+
+        .header-contact {
+            color: var(--white);
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .header-contact a {
+            color: var(--bright-blue);
+            text-decoration: none;
+        }
+
+        /* Hero Image */
+        .hero-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--navy) 0%, #0d2840 100%);
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            left: 40px;
+            top: 40px;
+            bottom: 40px;
+            width: 4px;
+            background-color: var(--bright-blue);
+        }
+
+        .hero-label {
+            color: var(--bright-blue);
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            color: var(--white);
+            font-size: 42px;
+            font-weight: 300;
+            letter-spacing: 0.02em;
+            max-width: 900px;
+            margin: 0 auto 30px;
+            line-height: 1.3;
+        }
+
+        .hero-subtitle {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 18px;
+            font-weight: 400;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Author Section */
+        .author-bar {
+            background-color: var(--light-gray);
+            padding: 30px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .author-bar img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--bright-blue);
+        }
+
+        .author-info {
+            text-align: left;
+        }
+
+        .author-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--navy);
+        }
+
+        .author-title {
+            font-size: 14px;
+            color: var(--text-dark);
+            font-weight: 400;
+        }
+
+        .publish-date {
+            font-size: 13px;
+            color: #666;
+            margin-left: 40px;
+            padding-left: 40px;
+            border-left: 1px solid #ddd;
+        }
+
+        /* Main Content */
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        .content h2 {
+            color: var(--navy);
+            font-size: 26px;
+            font-weight: 500;
+            margin: 50px 0 20px;
+            padding-left: 20px;
+            border-left: 4px solid var(--bright-blue);
+        }
+
+        .content h2:first-of-type {
+            margin-top: 0;
+        }
+
+        .content p {
+            font-size: 17px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: var(--text-dark);
+        }
+
+        .content p:first-of-type {
+            font-size: 19px;
+            color: var(--navy);
+            font-weight: 400;
+        }
+
+        /* Info Box */
+        .info-box {
+            background-color: var(--light-gray);
+            border-left: 4px solid var(--bright-blue);
+            padding: 30px;
+            margin: 40px 0;
+        }
+
+        .info-box h3 {
+            color: var(--navy);
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .info-box ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .info-box li {
+            padding: 8px 0;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .info-box li:last-child {
+            border-bottom: none;
+        }
+
+        .info-box li strong {
+            color: var(--navy);
+        }
+
+        /* Concern Cards */
+        .concerns-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .concern-card {
+            background-color: var(--white);
+            border: 1px solid #e0e0e0;
+            padding: 25px;
+            border-radius: 4px;
+        }
+
+        .concern-card h4 {
+            color: var(--navy);
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .concern-card h4::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background-color: var(--bright-blue);
+            border-radius: 50%;
+        }
+
+        .concern-card p {
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+
+        /* Highlight Box */
+        .highlight-box {
+            background: linear-gradient(135deg, var(--navy) 0%, #0d2840 100%);
+            color: var(--white);
+            padding: 40px;
+            margin: 50px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .highlight-box p {
+            color: var(--white);
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .highlight-box p em {
+            color: var(--bright-blue);
+            font-style: normal;
+            font-weight: 500;
+        }
+
+        /* Author Bio Section */
+        .author-bio {
+            background-color: var(--light-gray);
+            padding: 60px 40px;
+            margin-top: 60px;
+        }
+
+        .author-bio-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 50px;
+            align-items: start;
+        }
+
+        .author-photo {
+            width: 100%;
+            border-radius: 4px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .author-bio-content h3 {
+            color: var(--bright-blue);
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .author-bio-content h2 {
+            color: var(--navy);
+            font-size: 28px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .author-bio-content .title {
+            color: var(--text-dark);
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 25px;
+        }
+
+        .author-bio-content p {
+            font-size: 15px;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .credentials {
+            margin: 25px 0;
+            padding: 20px;
+            background-color: var(--white);
+            border-radius: 4px;
+        }
+
+        .credentials h4 {
+            color: var(--navy);
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 12px;
+        }
+
+        .credentials ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .credentials li {
+            font-size: 14px;
+            padding: 5px 0;
+            color: var(--text-dark);
+        }
+
+        .credentials li::before {
+            content: '✓';
+            color: var(--bright-blue);
+            font-weight: 600;
+            margin-right: 10px;
+        }
+
+        .contact-info {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        .contact-info a {
+            color: var(--bright-blue);
+            text-decoration: none;
+            font-weight: 500;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background-color: var(--navy);
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .cta-section h3 {
+            color: var(--white);
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 16px;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--bright-blue);
+            color: var(--white);
+            padding: 16px 40px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border-radius: 2px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #0090c5;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #0d2840;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .footer-logo {
+            color: var(--white);
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .footer-logo span {
+            font-weight: 500;
+        }
+
+        .footer p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 13px;
+        }
+
+        .footer a {
+            color: var(--bright-blue);
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+
+            .hero {
+                padding: 60px 30px;
+            }
+
+            .hero::before {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 28px;
+            }
+
+            .author-bar {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .publish-date {
+                margin-left: 0;
+                padding-left: 0;
+                border-left: none;
+                margin-top: 10px;
+            }
+
+            .content {
+                padding: 40px 25px;
+            }
+
+            .author-bio-inner {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .author-photo {
+                max-width: 250px;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-text">
+            <span>The Edmund Bogen Team</span> at Douglas Elliman Real Estate
+        </div>
+        <div class="header-contact">
+            <a href="https://bogenhomes.com">BogenHomes.com</a>
+        </div>
+    </header>
+
+    <!-- Hero Image -->
+    <img src="header-image.png" alt="DMV Lyons Road - Community concerns about proposed facility" class="hero-image">
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-label">Local Community Update</div>
+        <h1>Proposed South County DMV on Lyons Road: What Delray Beach and Ag Reserve Residents Need to Know</h1>
+        <p class="hero-subtitle">A comprehensive overview of the planned DMV/Tax Collector facility and the community concerns shaping the conversation</p>
+    </section>
+
+    <!-- Author Bar -->
+    <div class="author-bar">
+        <img src="edmund-bogen.jpg" alt="Edmund Bogen">
+        <div class="author-info">
+            <div class="author-name">Edmund Bogen</div>
+            <div class="author-title">Team Leader | The Edmund Bogen Team at Douglas Elliman</div>
+        </div>
+        <div class="publish-date">December 2025</div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="content">
+        <p>A significant development is taking shape that could impact thousands of residents in West Delray Beach and the Agricultural Reserve. Palm Beach County has announced plans for a new South County Service Center—a DMV and Tax Collector facility—to be located on Lyons Road. As a Delray Beach resident and real estate professional serving our community, I want to provide you with a comprehensive overview of this project and the concerns being raised by local residents.</p>
+
+        <h2>The Project at a Glance</h2>
+        <p>Palm Beach County purchased approximately 4.2 acres on Lyons Road in late 2024 for $4.5 million. The proposed facility will span 23,735 to 24,000 square feet and is intended to replace the current Congress Avenue location, which county officials describe as undersized and outdated for the growing South County population.</p>
+
+        <div class="info-box">
+            <h3>Key Project Details</h3>
+            <ul>
+                <li><span>Land Purchase</span> <strong>Late 2024 ($4.5 million)</strong></li>
+                <li><span>Facility Size</span> <strong>23,735 - 24,000 sq ft</strong></li>
+                <li><span>Groundbreaking</span> <strong>February 2026</strong></li>
+                <li><span>Projected Opening</span> <strong>2027</strong></li>
+                <li><span>Construction Budget</span> <strong>$4.25 million</strong></li>
+            </ul>
+        </div>
+
+        <h2>Why the County Says This is Necessary</h2>
+        <p>Tax Collector officials point to significant population growth in South Palm Beach County as the primary driver for this project. The existing Congress Avenue facility, they argue, can no longer adequately serve the expanding population. The Lyons Road location was selected for its proximity to major roadways, which county planners believe will improve accessibility for residents throughout the region.</p>
+
+        <h2>Community Concerns</h2>
+        <p>Residents from nearby communities have voiced strong opposition to the project, raising several key concerns:</p>
+
+        <div class="concerns-grid">
+            <div class="concern-card">
+                <h4>Agricultural Reserve Preservation</h4>
+                <p>The Agricultural Reserve was established with specific preservation goals in mind—to protect farmland and limit commercial development in western Palm Beach County. Many residents argue that a government service center of this size contradicts the founding principles of the Ag Reserve.</p>
+            </div>
+            <div class="concern-card">
+                <h4>Traffic Impact</h4>
+                <p>Traffic studies estimate the facility will generate between 482 and 500+ vehicle trips daily. For a region where many residents specifically chose to live for its quieter, less congested character, this projected traffic increase is a significant concern.</p>
+            </div>
+            <div class="concern-card">
+                <h4>Property Values</h4>
+                <p>As someone who closely monitors real estate trends in our market, I understand why homeowners worry about the potential impact on property values. The introduction of a high-traffic government facility can affect the desirability and character of surrounding residential areas.</p>
+            </div>
+        </div>
+
+        <h2>What This Means for Homeowners</h2>
+        <p>Whether you currently own property near the proposed site or are considering purchasing in the area, this development is worth monitoring. Changes to traffic patterns, the character of a neighborhood, and local infrastructure can all influence property values and quality of life.</p>
+        <p>If you have questions about how this or any local development might affect your real estate decisions, our team is here to help you navigate these considerations with accurate market data and professional guidance.</p>
+
+        <div class="highlight-box">
+            <p>Residents who wish to voice their opinions on this project should consider <em>attending Palm Beach County Commission meetings</em> and reaching out to local officials. Community engagement plays a crucial role in shaping development decisions that affect our neighborhoods.</p>
+        </div>
+
+        <h2>Stay Informed</h2>
+        <p>As this project develops, staying informed will be essential for residents and property owners in the affected areas. Whether you're concerned about how this may impact your property value, considering a purchase in the area, or simply want to understand the changes coming to your community, knowledge is power.</p>
+        <p>Our team remains committed to keeping our clients and community informed about developments that matter to South Florida homeowners.</p>
+    </main>
+
+    <!-- Author Bio Section -->
+    <section class="author-bio">
+        <div class="author-bio-inner">
+            <img src="edmund-bogen.jpg" alt="Edmund Bogen, Realtor" class="author-photo">
+            <div class="author-bio-content">
+                <h3>About the Author</h3>
+                <h2>Edmund Bogen</h2>
+                <p class="title">Team Leader | The Edmund Bogen Team at Douglas Elliman</p>
+
+                <p>Edmund Bogen leads one of South Florida's most innovative real estate teams, combining decades of luxury real estate expertise with cutting-edge AI and technology solutions. Specializing in Boca Raton, Delray Beach, and the surrounding Palm Beach County communities, Edmund has built a reputation for delivering exceptional results for buyers and sellers alike.</p>
+
+                <p>With a deep understanding of the South Florida luxury market—from waterfront estates to prestigious country club communities—Edmund provides clients with data-driven insights and personalized service. His team's commitment to staying ahead of market trends and leveraging the latest technology ensures clients receive the most comprehensive real estate guidance available.</p>
+
+                <p>Beyond real estate, Edmund is passionate about helping professionals harness the power of AI to transform their businesses. Through his mastermind community and speaking engagements, he shares strategies that have helped thousands of real estate professionals increase their productivity and close more deals.</p>
+
+                <div class="credentials">
+                    <h4>Recognition</h4>
+                    <ul>
+                        <li>Top Producing Team at Douglas Elliman</li>
+                        <li>Real Trends Verified - Best Small Teams</li>
+                        <li>AI & Real Estate Innovation Leader</li>
+                    </ul>
+                </div>
+
+                <div class="contact-info">
+                    <a href="tel:5612898655">561.289.8655</a>
+                    <a href="mailto:edmund.bogen@elliman.com">edmund.bogen@elliman.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h3>Questions About Real Estate in Delray Beach or Boca Raton?</h3>
+        <p>Whether you're buying, selling, or simply want to understand how local developments may affect your property, The Edmund Bogen Team is here to help.</p>
+        <a href="https://bogenhomes.com" class="cta-button">Contact Us Today</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-logo">
+            <span>The Edmund Bogen Team</span> at Douglas Elliman Real Estate
+        </div>
+        <p>Serving South Florida from Palm Beach to Miami | <a href="https://bogenhomes.com">BogenHomes.com</a></p>
+    </footer>
+</body>
+</html>
